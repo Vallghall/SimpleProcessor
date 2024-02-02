@@ -2,7 +2,14 @@
 #define MY_TERM_H
 
 typedef enum MTColor {
-    MTWHITE
+    MTBLACK   = 0,
+    MTRED     = 1,
+    MTGREEN   = 2,
+    MTYELLOW  = 3,
+    MTBLUE    = 4,
+    MTMAGENTA = 5,
+    MTCYAN    = 6,
+    MTWHITE   = 7
 } MTColor;
 
 // Clears the screen and moves the cursor 
