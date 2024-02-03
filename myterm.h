@@ -9,7 +9,8 @@ typedef enum MTColor {
     MTBLUE    = 4,
     MTMAGENTA = 5,
     MTCYAN    = 6,
-    MTWHITE   = 7
+    MTWHITE   = 7,
+    MTDEFAULT = 9
 } MTColor;
 
 // Clears the screen and moves the cursor 
